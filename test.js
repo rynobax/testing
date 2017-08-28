@@ -10,6 +10,7 @@ function addButton(name, func) {
 window.onload = function() {
   addButton('Div Bomb', divBomb);
   addButton('DL Bomb', dlBomb);
+  addButton('Stack Overflow', stackOverflow);
 }
 
 function divBomb() {
@@ -26,4 +27,8 @@ function dlBomb() {
   while(true) {
     button.click();
   } 
+}
+
+function stackOverflow() {
+  stackOverflow();
 }
