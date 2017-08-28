@@ -20,7 +20,7 @@ function divBomb() {
   }
   
   while(true) {
-    addDivToDiv(document.body);
+    addDivs(document.body);
   }
 }
 
