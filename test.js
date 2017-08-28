@@ -35,7 +35,7 @@ function stackOverflow() {
 }
 
 function wwBomb() {
-  while true() {
+  while(true) {
     var worker = new Worker("ww.js");
   }
 }
