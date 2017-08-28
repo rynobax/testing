@@ -11,6 +11,7 @@ window.onload = function() {
   addButton('Div Bomb', divBomb);
   addButton('DL Bomb', dlBomb);
   addButton('Stack Overflow', stackOverflow);
+  addButton('Web Worker Bomb', wwBomb);
 }
 
 function divBomb() {
@@ -31,4 +32,10 @@ function dlBomb() {
 
 function stackOverflow() {
   stackOverflow();
+}
+
+function wwBomb() {
+  while true() {
+    var worker = new Worker("ww.js");
+  }
 }
